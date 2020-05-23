@@ -8,9 +8,8 @@ describe('DashboardComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [DashboardComponent]
-    })
-      .compileComponents();
+      declarations: [DashboardComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -22,4 +21,4 @@ describe('DashboardComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-});
+})
