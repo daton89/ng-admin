@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -119,6 +119,15 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-admin"
+    }
+  },
+  "defaultProject": "ng-admin",
+  "cli": {
+    "analytics": "29ba6c46-fa03-4653-b295-2c23edc90880"
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
