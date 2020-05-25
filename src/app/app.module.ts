@@ -13,7 +13,7 @@ import {DashboardModule} from './dashboard/dashboard.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    NbThemeModule.forRoot({name: 'dark'}),
+    NbThemeModule.forRoot({ name: 'dark' }),
     NbLayoutModule,
     NbSidebarModule,
     NbEvaIconsModule,
@@ -23,5 +23,4 @@ import {DashboardModule} from './dashboard/dashboard.module';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {
-}
+export class AppModule {}
